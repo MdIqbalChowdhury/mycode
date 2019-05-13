@@ -6,3 +6,4 @@ user_input=input("please enter an IPv4 address:")
 ##print () can be given a series of objects seperated by a comma
 
 print("you told me he IPv4 address is :" , user_input)
+print("This is basic python class")

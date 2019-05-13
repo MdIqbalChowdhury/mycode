@@ -1,6 +1,7 @@
+
 # mycode
 Learning to track my code
-
+Want to learn git
 ## Getting started
 
 ### Prerequisites

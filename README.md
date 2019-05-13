@@ -6,10 +6,10 @@ Learning to track my code
 ### Prerequisites
 
 ## Build with
-* [python ] ( https://ww.python.org/) - The coding language used
+* [python ] ( https://www.python.org/) - The coding language used
 
 ## Authors
 
 * ** Md Iqbal Chowdhury** Initial work* -
 
-This is Edit file
+

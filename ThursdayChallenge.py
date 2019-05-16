@@ -34,6 +34,23 @@ def sort_it(chan):
     print(len(premium))
     print(len(premiumHD))
     print(len(extras))
+   
+    total = [len(basic), len(standard), len(premium), len(premiumHD), len(extras)]
+    
+    high = (max(total)
+    if high == len(basic):
+       print (f" Basic is the highet with length of {high}")
+    elif high == len(standard)
+       print(f"Standard is the highest length of {high}")
+
+    elif high == len(premium)
+       print(f"Premium isthe highest length of {high}")
+    elif high ==len(premiumHD)
+       print(f" PremiumHD is the highest length of {high}")
+    else:
+       print(f"extras is the hhighest length of {high}")
+
+    #print(max(total))
 
 sort_it(thursday)
 

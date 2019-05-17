@@ -1,30 +1,75 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
-channel_list = []
+#use this code...
 
-while(True):
-    print("what Channel Do you want: ")
-    channel =int(input())
-    if(channel >=1 and channel > 20):
-        print(" you should purchase our standard package")
-        channel_list.append(channel)
 
-    elif(channel > 50 and channel <=100):
-        print("you should purchase our premium package")
-        channel_list.append(channel)
+import random
+thursday=[]
+for x in range(10000):
+    thursday.append(random.randint(1,600))
+
+
+def sort_it(chan):
+
+    basic = []
+    standard = []
+    premium =[]
+    premiumHD = []
+    extras =[]
+    for x in chan:
+        if x <= 20:
+            basic.append(x)
+        elif x <= 50:
+            standard.append(x)
+        elif x <=100:
+            premium.append(x)
+        elif x <=200:
+            premiumHD.append(x)
+        else:
+
+            extras:append(x)
+   
+    print(len(basic))
+    print(len(standard))
+    print(len(premium))
+    print(len(premiumHD))
+    print(len(extras))
+   
+    total = [len(basic), len(standard), len(premium), len(premiumHD), len(extras)]
     
-    elif(channel >100 and channel <=200):
-        print("You should purchase our Premium HD package")
-        channel_list.append(channel)
-    
-    elif(channel >200 and channel <=600)
-       print("you should purchase our extra package")
-       channel_list.append(channel)
+    high = (max(total)
+    if high == len(basic):
+       print (f" Basic is the highet with length of {high}")
+    elif high == len(standard)
+       print(f"Standard is the highest length of {high}")
+
+    elif high == len(premium)
+       print(f"Premium isthe highest length of {high}")
+    elif high ==len(premiumHD)
+       print(f" PremiumHD is the highest length of {high}")
     else:
-        #print("would you like to price a different channel? Type 'No' to quit")
-        end = input("would you like to price a diffeent channel? Type no to quit)
-        if end.lower() =="q":
-            break
-print("Max channel:", max(channel_list)
+       print(f"extras is the hhighest length of {high}")
 
+    #print(max(total))
+
+sort_it(thursday)
+
+
+
+    
+    
+    
+    
+    
+#      if item >=1 and item<=20
+#      basic.append(item)
+ #    elif item >20 and item <=50
+#     standard.append(item)
+# elif item >50 and iteam <=100
+# premium.append(item)
+# elif iteam >100 and item <=200
+# premiumHD.append(item)
+ #else
+
+#sort_it(thursday)
 
